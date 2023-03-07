@@ -970,141 +970,141 @@ var childQs = []Question{
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 21
+		q: "You do a project with a group of kids and it turns out badly.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "I don't work well with the people in the group.",
 				agg: NIL,
 			},
 			{
-				txt: "",
+				txt: "I never work well with a group.",
+				agg: PvB,
+			},
+		},
+	},
+	{
+		// question 22
+		q: "You make a new friend.",
+		options: []Option{
+			{
+				txt: "I am a nice person.",
+				agg: PsG,
+			},
+			{
+				txt: "The people that I meet are nice.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 23
+		q: "You have been getting along well with your family.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I am easy to get along with when I am with my family.",
+				agg: PmG,
 			},
 			{
-				txt: "",
+				txt: "Once in a while I am easy to get along with when I am with my family.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 24
+		q: "You try to sell candy, but no one will buy any.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "Lately a lot of children are selling things, so people don't want to buy anything else from children.",
 				agg: NIL,
 			},
 			{
-				txt: "",
+				txt: "People don't like to buy things from children.",
+				agg: PmB,
+			},
+		},
+	},
+	{
+		// question 25
+		q: "You play a game and you win.",
+		options: []Option{
+			{
+				txt: "Sometimes I try as hard as I can at games.",
+				agg: NIL,
+			},
+			{
+				txt: "Sometimes I try as hard as I can.",
+				agg: PvG,
+			},
+		},
+	},
+	{
+		// question 26
+		q: "You get a bad grade in school.",
+		options: []Option{
+			{
+				txt: "I am stupid.",
+				agg: PsB,
+			},
+			{
+				txt: "Teachers are unfair graders.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 27
+		q: "You walk into a door and you get a bloody nose.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "I wasn't looking where I was going.",
 				agg: NIL,
 			},
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I have been careless lately.",
+				agg: PvB,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 28
+		q: "You miss the ball and your team loses the game.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "I didn't try hard while playing ball that day.",
 				agg: NIL,
 			},
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I usually don't try hard when I am playing ball.",
+				agg: PmB,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 29
+		q: "You twist your ankle in gym class.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "The past few weeks, the sports we played in gym class have been dangerous.",
 				agg: NIL,
 			},
 			{
-				txt: "",
-				agg: NIL,
+				txt: "The past few weeks I have been clumsy in gym class.",
+				agg: PsB,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 30
+		q: "Your parents take you to the beach and you have a good time.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "Everything at the beach was nice that day.",
+				agg: PvG,
 			},
 			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
+				txt: "The weather at the beach was nice that day.",
 				agg: NIL,
 			},
 		},
