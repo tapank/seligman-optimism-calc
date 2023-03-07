@@ -7,26 +7,23 @@ import (
 )
 
 func main() {
-	fmt.Println(INSTRUCTIONS)
-	reader := bufio.NewReaderSize(os.Stdin, 1)
-	getByte(reader)
+	fmt.Print(INSTRUCTIONS)
+	getByte()
 	survey := New(ADULT)
 	for q := survey.Next(); q != ""; q = survey.Next() {
-		fmt.Println(q)
+		fmt.Print(q)
 		for {
-			if survey.Add(getByte(reader)) {
+			if survey.Add(getByte()) {
 				break
 			}
+			fmt.Print("Invalid. Enter a or b: ")
 		}
 	}
 	survey.PrintResult()
 }
 
-func getByte(reader *bufio.Reader) rune {
-	in, err := reader.ReadByte()
-	for err != nil {
-		_, err = reader.ReadByte()
-	}
-	fmt.Printf("DEBUG: you pressed:'%c'\n", in)
+func getByte() rune {
+	reader := bufio.NewReaderSize(os.Stdin, 1)
+	in, _ := reader.ReadByte()
 	return rune(in)
 }
