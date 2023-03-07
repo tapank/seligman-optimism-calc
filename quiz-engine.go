@@ -4,7 +4,7 @@ import "fmt"
 
 func New(t SurveyType) (survey *Survey) {
 	survey = &Survey{
-		pos:        0,
+		pos:        -1,
 		surveyType: t,
 		scores:     make(map[Aggregator]int),
 	}
@@ -20,20 +20,32 @@ func New(t SurveyType) (survey *Survey) {
 }
 
 func (s *Survey) Next() string {
-	if s.pos >= len(s.questions) {
+	s.pos++
+	if s.pos == len(s.questions) {
 		return ""
 	}
-	q := fmt.Sprintf("%d. %s\n\tA. %s\n\tB. %s\nYour answer: ",
+	q := fmt.Sprintf("%d. %s\n\tA. %s\n\tB. %s\nYour answer (enter a or b): ",
 		s.pos+1,
 		s.questions[s.pos].q,
 		s.questions[s.pos].options[0],
 		s.questions[s.pos].options[1])
-	s.pos++
 	return q
 }
 
-func (s *Survey) Add(agg Aggregator) {
-	s.scores[agg]++
+func (s *Survey) Add(selection rune) bool {
+	if s.pos < 0 || s.pos >= len(s.questions) {
+		return false
+	}
+	switch selection {
+	case 'a', 'A':
+		s.scores[s.questions[s.pos].options[0].agg]++
+		return true
+	case 'b', 'B':
+		s.scores[s.questions[s.pos].options[1].agg]++
+		return true
+	default:
+		return false
+	}
 }
 
 func (s *Survey) PrintResult() {
