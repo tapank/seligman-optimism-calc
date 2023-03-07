@@ -575,127 +575,113 @@ var adultQs = []Question{
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 41
+		q: "You and your spouse have been fighting a great deal.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I have been feeling cranky and pressured lately.",
+				agg: PsB,
 			},
 			{
-				txt: "",
+				txt: "He/she has been hostile lately.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 42
+		q: "You fall down a great deal while skiing.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "Skiing is difficult.",
+				agg: PmB,
 			},
 			{
-				txt: "",
+				txt: "The trails were icy.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 43
+		q: "You win a prestigious award.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "I solved an important problem.",
 				agg: NIL,
 			},
 			{
-				txt: "",
+				txt: "I was the best employee.",
+				agg: PvG,
+			},
+		},
+	},
+	{
+		// question 44
+		q: "Your stocks are at an all-time low.",
+		options: []Option{
+			{
+				txt: "I didn't know much about the business climate at the time.",
+				agg: PvB,
+			},
+			{
+				txt: "I made a poor choice of stocks.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 45
+		q: "You win the lottery.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "It was pure chance.",
 				agg: NIL,
 			},
 			{
-				txt: "",
+				txt: "I picked the right numbers.",
+				agg: PsG,
+			},
+		},
+	},
+	{
+		// question 46
+		q: "You gain weight over the holidays and you can't lose it.",
+		options: []Option{
+			{
+				txt: "Diets don't work in the long run.",
+				agg: PmB,
+			},
+			{
+				txt: "The diet I tried didn't work.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 47
+		q: "You are in the hospital and few people come to visit.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I'm irritable when I am sick.",
+				agg: PsB,
 			},
 			{
-				txt: "",
+				txt: "My friends are negligent about things like that.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 48
+		q: "They won't honor your credit card at a store.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I sometimes overestimate how much money I have.",
+				agg: PvB,
 			},
 			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
+				txt: "I sometimes forget to pay my credit-card bill.",
 				agg: NIL,
 			},
 		},
