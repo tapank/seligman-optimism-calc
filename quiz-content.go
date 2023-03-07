@@ -1110,141 +1110,141 @@ var childQs = []Question{
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 31
+		q: "You take a train which arrives so late that you miss a movie.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "The past few days there have been problems with the train being on time.",
 				agg: NIL,
 			},
 			{
-				txt: "",
+				txt: "The trains are almost never on time.",
+				agg: PmB,
+			},
+		},
+	},
+	{
+		// question 32
+		q: "Your mother makes your favorite dinner for you.",
+		options: []Option{
+			{
+				txt: "There are a few things that my mother does to please me.",
+				agg: NIL,
+			},
+			{
+				txt: "My mother likes to please me.",
+				agg: PvG,
+			},
+		},
+	},
+	{
+		// question 33
+		q: "The team that you are on loses a game.",
+		options: []Option{
+			{
+				txt: "The team members don't play well together.",
+				agg: PmB,
+			},
+			{
+				txt: "That day the team members didn't play well together.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 34
+		q: "You finish your homework quickly.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "Lately I have been doing everything quickly.",
+				agg: PvG,
 			},
 			{
-				txt: "",
+				txt: "Lately I have been doing schoolwork quickly.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 35
+		q: "Your teacher asks you a question and you give the wrong answer.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I get nervous when I have to answer questions.",
+				agg: PmB,
 			},
 			{
-				txt: "",
+				txt: "That day I got nervous when I had to answer questions.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 36
+		q: "You get on the wrong bus and you get lost.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "That day I wasn't paying attention to what was going on.",
 				agg: NIL,
 			},
 			{
-				txt: "",
+				txt: "I usually don't pay attention to what's going on.",
+				agg: PmB,
+			},
+		},
+	},
+	{
+		// question 37
+		q: "You go to an amusement park and you have a good time.",
+		options: []Option{
+			{
+				txt: "I usually enjoy myself at amusement parks.",
+				agg: NIL,
+			},
+			{
+				txt: "I usually enjoy myself.",
+				agg: PvG,
+			},
+		},
+	},
+	{
+		// question 38
+		q: "An older kid slaps you in the face.",
+		options: []Option{
+			{
+				txt: "I teased his younger brother.",
+				agg: PsB,
+			},
+			{
+				txt: "His younger brother told him I had teased him.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 39
+		q: "You get all the toys you want on your birthday.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "People always guess what toys to buy me for my birthday.",
+				agg: PmG,
 			},
 			{
-				txt: "",
+				txt: "This birthday people guessed right as to what toys I wanted.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 40
+		q: "You take a vacation in the country and you have a wonderful time.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "The country is a beautiful place to be.",
+				agg: PmG,
 			},
 			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
+				txt: "The time of the year that we went was beautiful.",
 				agg: NIL,
 			},
 		},
