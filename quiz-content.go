@@ -830,142 +830,142 @@ var childQs = []Question{
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 11
+		q: "You tell a joke and no one laughs.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I don't tell jokes well.",
+				agg: PsB,
 			},
 			{
-				txt: "",
+				txt: "The joke is so well known that it is no longer funny.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 12
+		q: "Your teacher gives a lesson and you don't understand it.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I didn't pay attention to anything that day.",
+				agg: PvB,
 			},
 			{
-				txt: "",
+				txt: "I didn't pay attention when my teacher was talking.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 13
+		q: "You fail a test.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "My teacher makes hard tests.",
+				agg: PmB,
 			},
 			{
-				txt: "",
+				txt: "The past few weeks, my teacher has made hard tests.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 14
+		q: "You gain a lot of weight and start to look fat.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "The food I have to eat is fattening.",
 				agg: NIL,
 			},
 			{
-				txt: "",
+				txt: "I like fattening foods.",
+				agg: PsB,
+			},
+		},
+	},
+	{
+		// question 15
+		q: "A person steals money from you.",
+		options: []Option{
+			{
+				txt: "That person is dishonest.",
+				agg: NIL,
+			},
+			{
+				txt: "People are dishonest.",
+				agg: PvB,
+			},
+		},
+	},
+	{
+		// question 16
+		q: "Your parents praise something you make.",
+		options: []Option{
+			{
+				txt: "I am good at making some things.",
+				agg: PsG,
+			},
+			{
+				txt: "My parents like some things I make.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 17
+		q: "You play a game and you win money.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I am a lucky person.",
+				agg: PvG,
 			},
 			{
-				txt: "",
+				txt: "I am lucky when I play games.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 18
+		q: "You almost drown when swimming in a river.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I am not a very cautious person.",
+				agg: PmB,
 			},
 			{
-				txt: "",
+				txt: "Some days I am not a cautious person.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 19
+		q: "You are invited to a lot of parties.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "A lot of people have been acting friendly toward me lately.",
 				agg: NIL,
 			},
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I have been acting friendly toward a lot of people lately.",
+				agg: PsG,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 20
+		q: "A grown-up yells at you.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "That person yelled at the first person he saw.",
 				agg: NIL,
 			},
 			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
+				txt: "That person yelled at a lot of people he saw that day.",
+				agg: PvB,
 			},
 		},
 	},
