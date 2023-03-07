@@ -155,141 +155,141 @@ var adultQs = []Question{
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 11
+		q: "You stop a crime by calling the police.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "A strange noise caught my attention.",
 				agg: NIL,
 			},
 			{
-				txt: "",
+				txt: "I was alert that day.",
+				agg: PsG,
+			},
+		},
+	},
+	{
+		// question 12
+		q: "You were extremely healthy all year.",
+		options: []Option{
+			{
+				txt: "Few people around me were sick, so I wasn't exposed.",
+				agg: NIL,
+			},
+			{
+				txt: "I made sure I ate well and got enough rest.",
+				agg: PsG,
+			},
+		},
+	},
+	{
+		// question 13
+		q: "You owe the library ten dollars for an overdue book.",
+		options: []Option{
+			{
+				txt: "When I am really involved in what I am reading, I often forget when it's due.",
+				agg: PmB,
+			},
+			{
+				txt: "I was so involved in writing the report that I forgot to return the book.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 14
+		q: "Your stocks make you a lot of money.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "My broker decided to take on something new.",
 				agg: NIL,
 			},
 			{
-				txt: "",
+				txt: "My broker is a top-notch investor.",
+				agg: PmG,
+			},
+		},
+	},
+	{
+		// question 15
+		q: "You win an athletic contest.",
+		options: []Option{
+			{
+				txt: "I was feeling unbeatable.",
+				agg: NIL,
+			},
+			{
+				txt: "I train hard.",
+				agg: PmG,
+			},
+		},
+	},
+	{
+		// question 16
+		q: "You fail an important examination.",
+		options: []Option{
+			{
+				txt: "I wasn't as smart as the other people taking the exam.",
+				agg: PvB,
+			},
+			{
+				txt: "I didn't prepare for it well.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 17
+		q: "You prepared a special meal for a friend and he/she barely touched the food.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I wasn't a good cook.",
+				agg: PvB,
 			},
 			{
-				txt: "",
+				txt: "I made the meal in a rush.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 18
+		q: "You lose a sporting event for which you have been training for a long time.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I'm not very athletic.",
+				agg: PvB,
 			},
 			{
-				txt: "",
+				txt: "I'm not good at that sport.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 19
+		q: "Your car runs out of gas on a dark street late at night.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I din't check to see how much gas was in the tank.",
+				agg: PsB,
 			},
 			{
-				txt: "",
+				txt: "The gas gauge was broken.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 20
+		q: "You lose your temper with a friend.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "He/she is always nagging me.",
+				agg: PmB,
 			},
 			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
+				txt: "He/she was in a hostile mood.",
 				agg: NIL,
 			},
 		},
