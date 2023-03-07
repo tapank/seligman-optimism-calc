@@ -435,142 +435,142 @@ var adultQs = []Question{
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 31
+		q: "You save a person from choking to death.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "I know a technique to stop someone from choking.",
 				agg: NIL,
 			},
 			{
-				txt: "",
+				txt: "I know what to do in crisis situations.",
+				agg: PvG,
+			},
+		},
+	},
+	{
+		// question 32
+		q: "Your romantic partner wants to cool things off for a while.",
+		options: []Option{
+			{
+				txt: "I'm too self-centered.",
+				agg: PvB,
+			},
+			{
+				txt: "I don't spend enough time with him/her.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 33
+		q: "A friend says something that hurts your feelings.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "She always blurts things out without thinking of others.",
+				agg: PmB,
 			},
 			{
-				txt: "",
+				txt: "My friend was in a bad mood and took it out on me.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 34
+		q: "Your employer comes to you for advice.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "I am an expert in the area about which I was asked.",
 				agg: NIL,
 			},
 			{
-				txt: "",
+				txt: "I am good at giving useful advice.",
+				agg: PvG,
+			},
+		},
+	},
+	{
+		// question 35
+		q: "A friend thanks you for helping him/her get through a bad time.",
+		options: []Option{
+			{
+				txt: "I enjoy helping him/her through tough times.",
+				agg: NIL,
+			},
+			{
+				txt: "I care about people.",
+				agg: PvG,
+			},
+		},
+	},
+	{
+		// question 36
+		q: "You have a wonderful time at a party.",
+		options: []Option{
+			{
+				txt: "Everyone was friendly.",
+				agg: NIL,
+			},
+			{
+				txt: "I was friendly.",
+				agg: PsG,
+			},
+		},
+	},
+	{
+		// question 37
+		q: "Your doctor tells you that you are in good physical shape.",
+		options: []Option{
+			{
+				txt: "I make sure I exercise frequently.",
+				agg: NIL,
+			},
+			{
+				txt: "I am very health-conscious.",
+				agg: PvG,
+			},
+		},
+	},
+	{
+		// question 38
+		q: "Your spouse takes you away for a romantic weekend.",
+		options: []Option{
+			{
+				txt: "He/she needed to get away for a few days.",
+				agg: NIL,
+			},
+			{
+				txt: "He/she likes to explore new areas.",
+				agg: PmG,
+			},
+		},
+	},
+	{
+		// question 39
+		q: "Your doctor tells you that you eat too much sugar.",
+		options: []Option{
+			{
+				txt: "I don't pay much attention to my diet.",
+				agg: PsB,
+			},
+			{
+				txt: "You can't avoid sugar, it's in everything.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 40
+		q: "You are asked to head an important project.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "I just successfully completed a similar project.",
 				agg: NIL,
 			},
 			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
+				txt: "I am a good supervisor.",
+				agg: PmG,
 			},
 		},
 	},
