@@ -24,11 +24,11 @@ func (s *Survey) Next() string {
 	if s.pos == len(s.questions) {
 		return ""
 	}
-	q := fmt.Sprintf("%d. %s\n\tA. %s\n\tB. %s\nYour answer (enter a or b): ",
+	q := fmt.Sprintf("\n%d. %s\n\tA. %s\n\tB. %s\nYour answer (enter a or b): ",
 		s.pos+1,
 		s.questions[s.pos].q,
-		s.questions[s.pos].options[0],
-		s.questions[s.pos].options[1])
+		s.questions[s.pos].options[0].txt,
+		s.questions[s.pos].options[1].txt)
 	return q
 }
 
