@@ -690,55 +690,675 @@ var adultQs = []Question{
 
 var childQs = []Question{
 	{
-		q: "CH The project you are in charge of is a great success.",
+		// question 1
+		q: "You get an A on a test.",
 		options: []Option{
 			{
-				txt: "I kept a close watch over everyone's work.",
-				agg: PsG,
+				txt: "I am smart.",
+				agg: PvG,
 			},
 			{
-				txt: "Everyone devoted a lot of time and energy to it.",
+				txt: "I am good in the subject that the test was in.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		q: "CH You and your spouse (boyfriend/girlfriend) make up after a fight.",
+		// question 2
+		q: "You play a game with some friends and you win.",
 		options: []Option{
 			{
-				txt: "I forgave him/her.",
+				txt: "The people that I played with did not play the game well.",
 				agg: NIL,
 			},
 			{
-				txt: "I'm usually forgiving.",
+				txt: "I play that game well.",
+				agg: PsG,
+			},
+		},
+	},
+	{
+		// question 3
+		q: "You spend a night at a friend's house and you have a good time.",
+		options: []Option{
+			{
+				txt: "My friend was in a friendly mood that night.",
+				agg: NIL,
+			},
+			{
+				txt: "Everyone in my friend's family was in a friendly mood that night.",
+				agg: PvG,
+			},
+		},
+	},
+	{
+		// question 4
+		q: "You go on a vacation with a group of people and you have fun.",
+		options: []Option{
+			{
+				txt: "I was in a good mood.",
+				agg: PsG,
+			},
+			{
+				txt: "The people I was with were in good moods.",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question 5
+		q: "All of your friends catch a cold except you.",
+		options: []Option{
+			{
+				txt: "I have been healthy lately.",
+				agg: NIL,
+			},
+			{
+				txt: "I am a healthy person.",
 				agg: PmG,
 			},
 		},
 	},
 	{
-		q: "CH You get lost driving to a friend's house.",
+		// question 6
+		q: "Your pet gets run over by a car.",
 		options: []Option{
 			{
-				txt: "I missed a turn.",
+				txt: "I don't take good care of my pets.",
 				agg: PsB,
 			},
 			{
-				txt: "My friend gave me bad directions.",
+				txt: "Drivers are not cautious enough.",
 				agg: NIL,
 			},
 		},
 	},
-	// {
-	// 	q: "",
-	// 	options: []Option{
-	// 		{
-	// 			txt: "",
-	// 			agg: NIL,
-	// 		},
-	// 		{
-	// 			txt: "",
-	// 			agg: NIL,
-	// 		},
-	// 	},
-	// },
+	{
+		// question 7
+		q: "Some kids you know say that they don't like you.",
+		options: []Option{
+			{
+				txt: "Once in a while people are mean to me.",
+				agg: NIL,
+			},
+			{
+				txt: "Once in a while I am mean to other people.",
+				agg: PsB,
+			},
+		},
+	},
+	{
+		// question 8
+		q: "You get very good grades.",
+		options: []Option{
+			{
+				txt: "Schoolwork is simple.",
+				agg: NIL,
+			},
+			{
+				txt: "I am a hard worker.",
+				agg: PsG,
+			},
+		},
+	},
+	{
+		// question 9
+		q: "You meet a friend and your friend tells you that you look nice.",
+		options: []Option{
+			{
+				txt: "My friend felt like praising the way people looked that day.",
+				agg: NIL,
+			},
+			{
+				txt: "Usually my friend praises the way people look.",
+				agg: PmG,
+			},
+		},
+	},
+	{
+		// question 10
+		q: "A good friend tells you that he hates you.",
+		options: []Option{
+			{
+				txt: "My friend was in a bad mood that day.",
+				agg: NIL,
+			},
+			{
+				txt: "I wasn't nice to my friend that day.",
+				agg: PsB,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
 }
