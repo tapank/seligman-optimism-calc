@@ -1250,113 +1250,113 @@ var childQs = []Question{
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 41
+		q: "Your neighbors ask you over for dinner.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "Sometimes people are in kind moods.",
 				agg: NIL,
 			},
 			{
-				txt: "",
+				txt: "People are kind.",
+				agg: PmG,
+			},
+		},
+	},
+	{
+		// question 42
+		q: "You have a substitute teacher and she likes you.",
+		options: []Option{
+			{
+				txt: "I was well behaved during class that day.",
+				agg: NIL,
+			},
+			{
+				txt: "I am almost always well behaved during class.",
+				agg: PmG,
+			},
+		},
+	},
+	{
+		// question 43
+		q: "You make your friends happy.",
+		options: []Option{
+			{
+				txt: "I am a fun person to be with.",
+				agg: PmG,
+			},
+			{
+				txt: "Sometimes I am a fun person to be with.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 44
+		q: "You get a free ice-cream cone.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I was friendly to the ice-cream man that day.",
+				agg: PsG,
 			},
 			{
-				txt: "",
+				txt: "The ice-cream man was feeling friendly that day.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 45
+		q: "At your friend's party the magician asks you to help him out.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "It was just luck that I got picked.",
 				agg: NIL,
 			},
 			{
-				txt: "",
+				txt: "I looked really interested in what was gonig on.",
+				agg: PsG,
+			},
+		},
+	},
+	{
+		// question 46
+		q: "You try to convince a kid to go to the movies with you, but he won't go.",
+		options: []Option{
+			{
+				txt: "That day he did not feel like doing anything.",
+				agg: PvB,
+			},
+			{
+				txt: "That day he did not feel like going to the movies.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 47
+		q: "Your parents get a divorce.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "It is hard for people to get along well when they are married.",
+				agg: PvB,
 			},
 			{
-				txt: "",
+				txt: "It is hard for my parents to get along well when they are married.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 48
+		q: "You have been trying to get into a club and you don't get in.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I don't get along well with other people.",
+				agg: PvB,
 			},
 			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
+				txt: "I don't get along well with the people in the club.",
 				agg: NIL,
 			},
 		},
