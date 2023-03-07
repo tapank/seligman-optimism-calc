@@ -15,6 +15,7 @@ Press any key to start.`
 
 var adultQs = []Question{
 	{
+		// question 1
 		q: "The project you are in charge of is a great success.",
 		options: []Option{
 			{
@@ -28,6 +29,7 @@ var adultQs = []Question{
 		},
 	},
 	{
+		// question 2
 		q: "You and your spouse (boyfriend/girlfriend) make up after a fight.",
 		options: []Option{
 			{
@@ -41,6 +43,7 @@ var adultQs = []Question{
 		},
 	},
 	{
+		// question 3
 		q: "You get lost driving to a friend's house.",
 		options: []Option{
 			{
@@ -53,19 +56,650 @@ var adultQs = []Question{
 			},
 		},
 	},
-	// {
-	// 	q: "",
-	// 	options: []Option{
-	// 		{
-	// 			txt: "",
-	// 			agg: NIL,
-	// 		},
-	// 		{
-	// 			txt: "",
-	// 			agg: NIL,
-	// 		},
-	// 	},
-	// },
+	{
+		// question 4
+		q: "Your spouse surprises you with a gift.",
+		options: []Option{
+			{
+				txt: "He/she just got a raise at work.",
+				agg: NIL,
+			},
+			{
+				txt: "I took him/her out to a special dinner the night before.",
+				agg: PsG,
+			},
+		},
+	},
+	{
+		// question 5
+		q: "You forget your spouse's birthday.",
+		options: []Option{
+			{
+				txt: "I'm not good at remembering birthdays.",
+				agg: PmB,
+			},
+			{
+				txt: "I was preoccupied with other things.",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question 6
+		q: "You get a flower from a secret admirer.",
+		options: []Option{
+			{
+				txt: "I am attractive to him/her.",
+				agg: NIL,
+			},
+			{
+				txt: "I am a popular person.",
+				agg: PvG,
+			},
+		},
+	},
+	{
+		// question 7
+		q: "You run for a community office position and you win.",
+		options: []Option{
+			{
+				txt: "I devote a lot of time and energy to campaigning.",
+				agg: NIL,
+			},
+			{
+				txt: "I work very hard at everything I do.",
+				agg: PvG,
+			},
+		},
+	},
+	{
+		// question 8
+		q: "You miss an important engagement.",
+		options: []Option{
+			{
+				txt: "Sometimes my memory fails me.",
+				agg: PvB,
+			},
+			{
+				txt: "I sometimes forget to check my appointment book.",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question 9
+		q: "You run for a community office position and you lose.",
+		options: []Option{
+			{
+				txt: "I didn't campaign hard enough.",
+				agg: PsB,
+			},
+			{
+				txt: "The person who won knew more people.",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question 10
+		q: "You host a successful dinner.",
+		options: []Option{
+			{
+				txt: "I was particularly charming that night.",
+				agg: NIL,
+			},
+			{
+				txt: "I am a good host.",
+				agg: PmG,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
+	{
+		// question x
+		q: "",
+		options: []Option{
+			{
+				txt: "",
+				agg: NIL,
+			},
+			{
+				txt: "",
+				agg: NIL,
+			},
+		},
+	},
 }
 
 var childQs = []Question{
