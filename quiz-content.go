@@ -11,7 +11,12 @@ may not like the way some of the responses sound, but don't choose what you
 think you *should* say or what would sound right to other people; choose the
 response your'd be likelier to have.
 
-Press any key to start.`
+Enter your group:
+Type a if you are an adult.
+Type b if you are a boy.
+Type c if you are a girl.
+
+Your group: `
 
 var adultQs = []Question{
 	{

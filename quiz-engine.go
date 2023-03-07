@@ -2,16 +2,16 @@ package main
 
 import "fmt"
 
-func New(t SurveyType) (survey *Survey) {
+func New(t Subject) (survey *Survey) {
 	survey = &Survey{
-		pos:        -1,
-		surveyType: t,
-		scores:     make(map[Aggregator]int),
+		pos:     -1,
+		subject: t,
+		scores:  make(map[Aggregator]int),
 	}
 	switch t {
 	case ADULT:
 		survey.questions = adultQs
-	case CHILD:
+	case BOY, GIRL:
 		survey.questions = childQs
 	default:
 		survey = nil
@@ -49,17 +49,101 @@ func (s *Survey) Add(selection rune) bool {
 }
 
 func (s *Survey) PrintResult() {
-	// fmt.Printf("Scores: %v", s.scores)
+	HoB := s.scores[PmB] + s.scores[PvB]
+	totalB := s.scores[PmB] + s.scores[PvB] + s.scores[PsB]
+	totalG := s.scores[PmG] + s.scores[PvG] + s.scores[PsG]
+	GmB := totalG - totalB
+
 	fmt.Println("\n\nYour score:")
 	fmt.Printf("PmB = %d\tPmG = %d\n", s.scores[PmB], s.scores[PmG])
 	fmt.Printf("PvB = %d\tPvG = %d\n", s.scores[PvB], s.scores[PvG])
-	fmt.Printf("HoB = %d\n", s.scores[PmB]+s.scores[PvB])
+	fmt.Printf("HoB = %d\n", HoB)
 	fmt.Printf("PsB = %d\tPsG = %d\n", s.scores[PsB], s.scores[PsG])
-	totalB := s.scores[PmB] + s.scores[PvB] + s.scores[PsB]
-	totalG := s.scores[PmG] + s.scores[PvG] + s.scores[PsG]
 	fmt.Printf("Total B = %d\tTotal G = %d\n", totalB, totalG)
-	fmt.Printf("G - B = %d\n\n", totalG-totalB)
+	fmt.Printf("G - B = %d\n\n", GmB)
 
+	switch s.subject {
+	case ADULT:
+		s.PrintAdultSummary(HoB, totalB, totalG, GmB)
+	case BOY:
+		s.PrintBoySummary(totalB, totalG, GmB)
+	case GIRL:
+		s.PrintGirlSummary(totalB, totalG, GmB)
+	}
+}
+
+func (s *Survey) PrintBoySummary(totalB int, totalG int, GmB int) {
+	fmt.Println("Score interpretation for boys")
+	fmt.Print("Total B score interpretation: ")
+	switch {
+	case totalB >= 12:
+		fmt.Println("very pessimistic")
+	case totalB >= 8:
+		fmt.Println("average")
+	default:
+		fmt.Println("optimistic")
+	}
+
+	fmt.Print("Total G score interpretation: ")
+	switch {
+	case totalG > 14:
+		fmt.Println("optimistic")
+	case totalG >= 10 && totalG <= 14:
+		fmt.Println("average")
+	case totalG < 10:
+		fmt.Println("great pessimism")
+	}
+
+	fmt.Print("Total G - B score interpretation: ")
+	switch {
+	case GmB <= 1:
+		fmt.Println("very pessimistic; risk of depression")
+	case GmB <= 3:
+		fmt.Println("somewhat pessimistic")
+	case GmB <= 5:
+		fmt.Println("average")
+	default:
+		fmt.Println("optimistic")
+	}
+}
+
+func (s *Survey) PrintGirlSummary(totalB int, totalG int, GmB int) {
+	fmt.Println("Score interpretation for girls")
+	fmt.Print("Total B score interpretation: ")
+	switch {
+	case totalB >= 11:
+		fmt.Println("very pessimistic")
+	case totalB >= 7:
+		fmt.Println("average")
+	default:
+		fmt.Println("optimistic")
+	}
+
+	fmt.Print("Total G score interpretation: ")
+	switch {
+	case totalG > 14:
+		fmt.Println("optimistic")
+	case totalG >= 10 && totalG <= 14:
+		fmt.Println("average")
+	case totalG < 10:
+		fmt.Println("great pessimism")
+	}
+
+	fmt.Print("Total G - B score interpretation: ")
+	switch {
+	case GmB <= 2:
+		fmt.Println("very pessimistic; risk of depression")
+	case GmB <= 4:
+		fmt.Println("somewhat pessimistic")
+	case GmB <= 7:
+		fmt.Println("average")
+	default:
+		fmt.Println("optimistic")
+	}
+}
+
+func (s *Survey) PrintAdultSummary(HoB int, totalB int, totalG int, GmB int) {
+	fmt.Println("Score interpretation for adults")
 	fmt.Print("PvB score interpretation: ")
 	switch s.scores[PvB] {
 	case 0, 1:
@@ -93,7 +177,7 @@ func (s *Survey) PrintResult() {
 	}
 
 	fmt.Print("HoB score interpretation: ")
-	switch s.scores[PvB] + s.scores[PmB] {
+	switch HoB {
 	case 0, 1, 2:
 		fmt.Println("extraordinarily hopeful")
 	case 3, 4, 5, 6:
@@ -173,7 +257,6 @@ func (s *Survey) PrintResult() {
 	}
 
 	fmt.Print("Total G - B score interpretation: ")
-	GmB := totalG - totalB
 	switch {
 	case GmB > 8:
 		fmt.Println("you are very optimistic across the board")
@@ -191,10 +274,10 @@ func (s *Survey) PrintResult() {
 }
 
 type Survey struct {
-	pos        int
-	questions  []Question
-	surveyType SurveyType
-	scores     map[Aggregator]int
+	pos       int
+	questions []Question
+	subject   Subject
+	scores    map[Aggregator]int
 }
 
 type Question struct {
@@ -209,11 +292,12 @@ type Option struct {
 
 type Aggregator string
 
-type SurveyType int
+type Subject int
 
 const (
-	ADULT = 1
-	CHILD = 2
+	ADULT = iota
+	BOY
+	GIRL
 )
 
 const (

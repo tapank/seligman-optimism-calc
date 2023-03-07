@@ -8,8 +8,19 @@ import (
 
 func main() {
 	fmt.Print(INSTRUCTIONS)
-	getByte()
-	survey := New(ADULT)
+	var survey *Survey
+	switch getByte() {
+	case 'a':
+		survey = New(ADULT)
+	case 'b':
+		survey = New(BOY)
+	case 'c':
+		survey = New(GIRL)
+	default:
+		fmt.Println("Invalid choice.")
+		return
+	}
+
 	for q := survey.Next(); q != ""; q = survey.Next() {
 		fmt.Print(q)
 		for {
