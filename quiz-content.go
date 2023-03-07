@@ -295,141 +295,141 @@ var adultQs = []Question{
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 21
+		q: "You are penalized for not returning your income-tax forms on time.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I always put off doing my taxes.",
+				agg: PmB,
 			},
 			{
-				txt: "",
+				txt: "I was lazy about getting my taxes done this year.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 22
+		q: "You ask a person out on a date and he/she says no.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I was a wreck that day.",
+				agg: PvB,
 			},
 			{
-				txt: "",
+				txt: "I got tongue-tied when I asked him/her on the date.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 23
+		q: "A game-show host picks you out of the audience to participate in the show.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "I was sitting in the right seat.",
 				agg: NIL,
 			},
 			{
-				txt: "",
+				txt: "I looked the most enthusiastic.",
+				agg: PsG,
+			},
+		},
+	},
+	{
+		// question 24
+		q: "You are frequently asked to dance at a party.",
+		options: []Option{
+			{
+				txt: "I am outgoing at parties.",
+				agg: PmG,
+			},
+			{
+				txt: "I was in perfect form that night.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 25
+		q: "You buy your spouse a gift and he/she doesn't like it.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I don't put enough thought into things like that.",
+				agg: PsB,
 			},
 			{
-				txt: "",
+				txt: "He/she has very picky tastes.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 26
+		q: "You do exceptionally well in a job interview.",
 		options: []Option{
 			{
-				txt: "",
+				txt: "I felt extremely confident during the interview.",
 				agg: NIL,
 			},
 			{
-				txt: "",
+				txt: "I interview well.",
+				agg: PmG,
+			},
+		},
+	},
+	{
+		// question 27
+		q: "You tell a joke and everyone laughs.",
+		options: []Option{
+			{
+				txt: "The joke was funny.",
+				agg: NIL,
+			},
+			{
+				txt: "My timing was perfect.",
+				agg: PsG,
+			},
+		},
+	},
+	{
+		// question 28
+		q: "Your boss gives you too little time in which to finish a project,\n\tbut you get finished anyway.",
+		options: []Option{
+			{
+				txt: "I am good at my job.",
+				agg: NIL,
+			},
+			{
+				txt: "I am an efficient person.",
+				agg: PvG,
+			},
+		},
+	},
+	{
+		// question 29
+		q: "You've been feeling run-down lately.",
+		options: []Option{
+			{
+				txt: "I never get a chance to relax.",
+				agg: PmB,
+			},
+			{
+				txt: "I was exceptionally busy this week.",
 				agg: NIL,
 			},
 		},
 	},
 	{
-		// question x
-		q: "",
+		// question 30
+		q: "You ask someone to dance and he/she says no.",
 		options: []Option{
 			{
-				txt: "",
-				agg: NIL,
+				txt: "I am not a good enough dancer.",
+				agg: PsB,
 			},
 			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
-				agg: NIL,
-			},
-		},
-	},
-	{
-		// question x
-		q: "",
-		options: []Option{
-			{
-				txt: "",
-				agg: NIL,
-			},
-			{
-				txt: "",
+				txt: "He/she doesn't like to dance.",
 				agg: NIL,
 			},
 		},
