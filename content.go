@@ -1416,84 +1416,84 @@ var cesdQuestions = []CESDQuestion{
 		q:   "I felt that I was not as good as other prople.",
 		opt: cesdOption,
 	},
-	// {
-	// 	// question x
-	// 	q:   "",
-	// 	opt: cesdOption,
-	// },
-	// {
-	// 	// question x
-	// 	q:   "",
-	// 	opt: cesdOption,
-	// },
-	// {
-	// 	// question x
-	// 	q:   "",
-	// 	opt: cesdOption,
-	// },
-	// {
-	// 	// question x
-	// 	q:   "",
-	// 	opt: cesdOption,
-	// },
-	// {
-	// 	// question x
-	// 	q:   "",
-	// 	opt: cesdOption,
-	// },
-	// {
-	// 	// question x
-	// 	q:   "",
-	// 	opt: cesdOption,
-	// },
-	// {
-	// 	// question x
-	// 	q:   "",
-	// 	opt: cesdOption,
-	// },
-	// {
-	// 	// question x
-	// 	q:   "",
-	// 	opt: cesdOption,
-	// },
-	// {
-	// 	// question x
-	// 	q:   "",
-	// 	opt: cesdOption,
-	// },
-	// {
-	// 	// question x
-	// 	q:   "",
-	// 	opt: cesdOption,
-	// },
-	// {
-	// 	// question x
-	// 	q:   "",
-	// 	opt: cesdOption,
-	// },
-	// {
-	// 	// question x
-	// 	q:   "",
-	// 	opt: cesdOption,
-	// },
-	// {
-	// 	// question x
-	// 	q:   "",
-	// 	opt: cesdOption,
-	// },
-	// {
-	// 	// question x
-	// 	q:   "",
-	// 	opt: cesdOption,
-	// },
-	// {
-	// 	// question x
-	// 	q:   "",
-	// 	opt: cesdOption,
-	// },
-	// {
-	// 	// question x
-	// 	q:   "",
-	// 	opt: cesdOption,
-	// },
+	{
+		// question 5
+		q:   "I had trouble keeping my mind on what I was doing.",
+		opt: cesdOption,
+	},
+	{
+		// question 6
+		q:   "I felt depressed.",
+		opt: cesdOption,
+	},
+	{
+		// question 7
+		q:   "I felt that everything I did was an effort.",
+		opt: cesdOption,
+	},
+	{
+		// question 8
+		q:   "I felt hopeless about the future.",
+		opt: cesdOption,
+	},
+	{
+		// question 9
+		q:   "I thought my life had been a failure.",
+		opt: cesdOption,
+	},
+	{
+		// question 10
+		q:   "I felt fearful.",
+		opt: cesdOption,
+	},
+	{
+		// question 11
+		q:   "My sleep was restless.",
+		opt: cesdOption,
+	},
+	{
+		// question 12
+		q:   "I was unhappy.",
+		opt: cesdOption,
+	},
+	{
+		// question 13
+		q:   "I talked less than usual.",
+		opt: cesdOption,
+	},
+	{
+		// question 14
+		q:   "I felt lonely.",
+		opt: cesdOption,
+	},
+	{
+		// question 15
+		q:   "People were unfriendly.",
+		opt: cesdOption,
+	},
+	{
+		// question 16
+		q:   "I did not enjoy life.",
+		opt: cesdOption,
+	},
+	{
+		// question 17
+		q:   "I had crying spells.",
+		opt: cesdOption,
+	},
+	{
+		// question 18
+		q:   "I felt sad.",
+		opt: cesdOption,
+	},
+	{
+		// question 19
+		q:   "I felt that tpeople disliked me.",
+		opt: cesdOption,
+	},
+	{
+		// question 20
+		q:   "I could not get \"going\".",
+		opt: cesdOption,
+	},
 }
