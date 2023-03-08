@@ -24,7 +24,13 @@ Enter your group:
 
 Your group: `
 
-const DT_INSTRUCTIONS = "This is the depression test. Details to follow."
+const DT_INSTRUCTIONS = `
+This is a widely used test for depression, developed by Lenore Radloff at the Center for Epidemiological Studies of the National Institute of Mental Health in the USA. This test, called the CES-D (Center for Epidemiological Studies - Depression), covers all the symptoms of depression.
+
+Select the answer which best describes how you have felt over the past week.
+
+There are 20 questions. Press any key to start.
+`
 
 var adultQs = []ASQuestion{
 	{

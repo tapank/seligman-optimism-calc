@@ -327,5 +327,5 @@ func (s *CESDTest) PrintResult() {
 	default:
 		msg = "error."
 	}
-	fmt.Println("Result:", msg)
+	fmt.Printf("Result: %s\n\n", msg)
 }

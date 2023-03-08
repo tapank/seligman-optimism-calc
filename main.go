@@ -22,6 +22,7 @@ func main() {
 func testDepression() {
 	fmt.Print(DT_INSTRUCTIONS)
 	dtest := NewCESDTest()
+	getByte()
 	for q := dtest.Next(); q != ""; q = dtest.Next() {
 		fmt.Print(q)
 		for {
