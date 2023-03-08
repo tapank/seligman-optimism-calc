@@ -1,6 +1,12 @@
 package main
 
-const INSTRUCTIONS = `
+const CHOOSETEST = `Select questionnaire:
+- Type a to test your depression.
+- Type b for Attributional Style Questionnaire.
+
+Your choice: `
+
+const ASQ_INSTRUCTIONS = `
 Take as much time as you need to answer each of the questions. On average the
 test takes about fifteen minutes. There are no right or wrong answers. Read the
 description of each situation and vividly imagine it happening to you. You have
@@ -12,11 +18,13 @@ think you *should* say or what would sound right to other people; choose the
 response your'd be likelier to have.
 
 Enter your group:
-Type a if you are an adult.
-Type b if you are a boy.
-Type c if you are a girl.
+- Type a if you are an adult.
+- Type b if you are a boy.
+- Type c if you are a girl.
 
 Your group: `
+
+const DT_INSTRUCTIONS = "This is the depression test. Details to follow."
 
 var adultQs = []ASQuestion{
 	{
@@ -1387,7 +1395,7 @@ var cesdOption = []CESDOption{
 	},
 }
 
-var dtQs = []CESDQuestion{
+var cesdQuestions = []CESDQuestion{
 	{
 		// question 1
 		q:   "I was bothered by things that usually don't bother me.",
@@ -1400,7 +1408,7 @@ var dtQs = []CESDQuestion{
 	},
 	{
 		// question 3
-		q:   "I felt that I could not shake off the blues even with help frmo my family and friends.",
+		q:   "I felt that I could not shake off the blues even with help from my family and friends.",
 		opt: cesdOption,
 	},
 	{

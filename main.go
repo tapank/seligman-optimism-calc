@@ -7,7 +7,35 @@ import (
 )
 
 func main() {
-	fmt.Print(INSTRUCTIONS)
+	fmt.Print(CHOOSETEST)
+	switch getByte() {
+	case 'a':
+		testDepression()
+	case 'b':
+		takeASQ()
+	default:
+		fmt.Println("Invalid choice.")
+		return
+	}
+}
+
+func testDepression() {
+	fmt.Print(DT_INSTRUCTIONS)
+	dtest := NewCESDTest()
+	for q := dtest.Next(); q != ""; q = dtest.Next() {
+		fmt.Print(q)
+		for {
+			if dtest.Add(getByte()) {
+				break
+			}
+			fmt.Print("Invalid. Enter a, b, c, or d: ")
+		}
+	}
+	dtest.PrintResult()
+}
+
+func takeASQ() {
+	fmt.Print(ASQ_INSTRUCTIONS)
 	var survey *ASQ
 	switch getByte() {
 	case 'a':

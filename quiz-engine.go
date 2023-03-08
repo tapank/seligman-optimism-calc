@@ -272,3 +272,60 @@ func (s *ASQ) PrintAdultSummary(HoB int, totalB int, totalG int, GmB int) {
 		fmt.Println("error")
 	}
 }
+
+func NewCESDTest() *CESDTest {
+	return &CESDTest{
+		pos:       -1,
+		questions: cesdQuestions,
+	}
+}
+
+func (s *CESDTest) Next() string {
+	s.pos++
+	if s.pos == len(s.questions) {
+		return ""
+	}
+	q := fmt.Sprintf("\n%d. %s\n\ta. %s\n\tb. %s\n\tc. %s\n\td. %s\nYour answer (enter a, b, c, or d): ",
+		s.pos+1,
+		s.questions[s.pos].q,
+		s.questions[s.pos].opt[0].txt,
+		s.questions[s.pos].opt[1].txt,
+		s.questions[s.pos].opt[2].txt,
+		s.questions[s.pos].opt[3].txt)
+	return q
+}
+
+func (s *CESDTest) Add(selection rune) bool {
+	if s.pos < 0 || s.pos >= len(s.questions) {
+		return false
+	}
+
+	var index int
+	if selection >= 'a' && selection <= 'd' {
+		index = int(selection - 'a')
+	} else if selection >= 'A' && selection <= 'D' {
+		index = int(selection - 'A')
+	} else {
+		return false
+	}
+	s.score += s.questions[s.pos].opt[index].score
+	return true
+}
+
+func (s *CESDTest) PrintResult() {
+	fmt.Println("\n\nYour score:", s.score)
+	msg := ""
+	switch {
+	case s.score > 24:
+		msg = "you are severely depressed."
+	case s.score > 15:
+		msg = "you are moderately depressed."
+	case s.score > 9:
+		msg = "you are mildly depressed."
+	case s.score >= 0:
+		msg = "you are nondepressed."
+	default:
+		msg = "error."
+	}
+	fmt.Println("Result:", msg)
+}
