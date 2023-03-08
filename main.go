@@ -8,14 +8,14 @@ import (
 
 func main() {
 	fmt.Print(INSTRUCTIONS)
-	var survey *Survey
+	var survey *ASQ
 	switch getByte() {
 	case 'a':
-		survey = New(ADULT)
+		survey = NewASQ(ADULT)
 	case 'b':
-		survey = New(BOY)
+		survey = NewASQ(BOY)
 	case 'c':
-		survey = New(GIRL)
+		survey = NewASQ(GIRL)
 	default:
 		fmt.Println("Invalid choice.")
 		return

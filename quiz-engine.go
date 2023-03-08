@@ -2,24 +2,24 @@ package main
 
 import "fmt"
 
-func New(t Subject) (survey *Survey) {
-	survey = &Survey{
+func NewASQ(t Target) (asq *ASQ) {
+	asq = &ASQ{
 		pos:     -1,
 		subject: t,
 		scores:  make(map[Aggregator]int),
 	}
 	switch t {
 	case ADULT:
-		survey.questions = adultQs
+		asq.questions = adultQs
 	case BOY, GIRL:
-		survey.questions = childQs
+		asq.questions = childQs
 	default:
-		survey = nil
+		asq = nil
 	}
 	return
 }
 
-func (s *Survey) Next() string {
+func (s *ASQ) Next() string {
 	s.pos++
 	if s.pos == len(s.questions) {
 		return ""
@@ -32,7 +32,7 @@ func (s *Survey) Next() string {
 	return q
 }
 
-func (s *Survey) Add(selection rune) bool {
+func (s *ASQ) Add(selection rune) bool {
 	if s.pos < 0 || s.pos >= len(s.questions) {
 		return false
 	}
@@ -48,7 +48,7 @@ func (s *Survey) Add(selection rune) bool {
 	}
 }
 
-func (s *Survey) PrintResult() {
+func (s *ASQ) PrintResult() {
 	HoB := s.scores[PmB] + s.scores[PvB]
 	totalB := s.scores[PmB] + s.scores[PvB] + s.scores[PsB]
 	totalG := s.scores[PmG] + s.scores[PvG] + s.scores[PsG]
@@ -72,7 +72,7 @@ func (s *Survey) PrintResult() {
 	}
 }
 
-func (s *Survey) PrintBoySummary(totalB int, totalG int, GmB int) {
+func (s *ASQ) PrintBoySummary(totalB int, totalG int, GmB int) {
 	fmt.Println("Score interpretation for boys")
 	fmt.Print("Total B score interpretation: ")
 	switch {
@@ -107,7 +107,7 @@ func (s *Survey) PrintBoySummary(totalB int, totalG int, GmB int) {
 	}
 }
 
-func (s *Survey) PrintGirlSummary(totalB int, totalG int, GmB int) {
+func (s *ASQ) PrintGirlSummary(totalB int, totalG int, GmB int) {
 	fmt.Println("Score interpretation for girls")
 	fmt.Print("Total B score interpretation: ")
 	switch {
@@ -142,7 +142,7 @@ func (s *Survey) PrintGirlSummary(totalB int, totalG int, GmB int) {
 	}
 }
 
-func (s *Survey) PrintAdultSummary(HoB int, totalB int, totalG int, GmB int) {
+func (s *ASQ) PrintAdultSummary(HoB int, totalB int, totalG int, GmB int) {
 	fmt.Println("Score interpretation for adults")
 	fmt.Print("PvB score interpretation: ")
 	switch s.scores[PvB] {
@@ -272,40 +272,3 @@ func (s *Survey) PrintAdultSummary(HoB int, totalB int, totalG int, GmB int) {
 		fmt.Println("error")
 	}
 }
-
-type Survey struct {
-	pos       int
-	questions []Question
-	subject   Subject
-	scores    map[Aggregator]int
-}
-
-type Question struct {
-	q       string
-	options []Option
-}
-
-type Option struct {
-	txt string
-	agg Aggregator
-}
-
-type Aggregator string
-
-type Subject int
-
-const (
-	ADULT = iota
-	BOY
-	GIRL
-)
-
-const (
-	PsB = "PsB"
-	PsG = "PsG"
-	PmB = "PmB"
-	PmG = "PmG"
-	PvB = "PvB"
-	PvG = "PvG"
-	NIL = ""
-)

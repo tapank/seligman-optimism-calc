@@ -18,11 +18,11 @@ Type c if you are a girl.
 
 Your group: `
 
-var adultQs = []Question{
+var adultQs = []ASQuestion{
 	{
 		// question 1
 		q: "The project you are in charge of is a great success.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I kept a close watch over everyone's work.",
 				agg: PsG,
@@ -36,7 +36,7 @@ var adultQs = []Question{
 	{
 		// question 2
 		q: "You and your spouse (boyfriend/girlfriend) make up after a fight.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I forgave him/her.",
 				agg: NIL,
@@ -50,7 +50,7 @@ var adultQs = []Question{
 	{
 		// question 3
 		q: "You get lost driving to a friend's house.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I missed a turn.",
 				agg: PsB,
@@ -64,7 +64,7 @@ var adultQs = []Question{
 	{
 		// question 4
 		q: "Your spouse surprises you with a gift.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "He/she just got a raise at work.",
 				agg: NIL,
@@ -78,7 +78,7 @@ var adultQs = []Question{
 	{
 		// question 5
 		q: "You forget your spouse's birthday.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I'm not good at remembering birthdays.",
 				agg: PmB,
@@ -92,7 +92,7 @@ var adultQs = []Question{
 	{
 		// question 6
 		q: "You get a flower from a secret admirer.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I am attractive to him/her.",
 				agg: NIL,
@@ -106,7 +106,7 @@ var adultQs = []Question{
 	{
 		// question 7
 		q: "You run for a community office position and you win.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I devote a lot of time and energy to campaigning.",
 				agg: NIL,
@@ -120,7 +120,7 @@ var adultQs = []Question{
 	{
 		// question 8
 		q: "You miss an important engagement.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "Sometimes my memory fails me.",
 				agg: PvB,
@@ -134,7 +134,7 @@ var adultQs = []Question{
 	{
 		// question 9
 		q: "You run for a community office position and you lose.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I didn't campaign hard enough.",
 				agg: PsB,
@@ -148,7 +148,7 @@ var adultQs = []Question{
 	{
 		// question 10
 		q: "You host a successful dinner.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I was particularly charming that night.",
 				agg: NIL,
@@ -162,7 +162,7 @@ var adultQs = []Question{
 	{
 		// question 11
 		q: "You stop a crime by calling the police.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "A strange noise caught my attention.",
 				agg: NIL,
@@ -176,7 +176,7 @@ var adultQs = []Question{
 	{
 		// question 12
 		q: "You were extremely healthy all year.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "Few people around me were sick, so I wasn't exposed.",
 				agg: NIL,
@@ -190,7 +190,7 @@ var adultQs = []Question{
 	{
 		// question 13
 		q: "You owe the library ten dollars for an overdue book.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "When I am really involved in what I am reading, I often forget when it's due.",
 				agg: PmB,
@@ -204,7 +204,7 @@ var adultQs = []Question{
 	{
 		// question 14
 		q: "Your stocks make you a lot of money.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "My broker decided to take on something new.",
 				agg: NIL,
@@ -218,7 +218,7 @@ var adultQs = []Question{
 	{
 		// question 15
 		q: "You win an athletic contest.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I was feeling unbeatable.",
 				agg: NIL,
@@ -232,7 +232,7 @@ var adultQs = []Question{
 	{
 		// question 16
 		q: "You fail an important examination.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I wasn't as smart as the other people taking the exam.",
 				agg: PvB,
@@ -246,7 +246,7 @@ var adultQs = []Question{
 	{
 		// question 17
 		q: "You prepared a special meal for a friend and he/she barely touched the food.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I wasn't a good cook.",
 				agg: PvB,
@@ -260,7 +260,7 @@ var adultQs = []Question{
 	{
 		// question 18
 		q: "You lose a sporting event for which you have been training for a long time.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I'm not very athletic.",
 				agg: PvB,
@@ -274,7 +274,7 @@ var adultQs = []Question{
 	{
 		// question 19
 		q: "Your car runs out of gas on a dark street late at night.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I din't check to see how much gas was in the tank.",
 				agg: PsB,
@@ -288,7 +288,7 @@ var adultQs = []Question{
 	{
 		// question 20
 		q: "You lose your temper with a friend.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "He/she is always nagging me.",
 				agg: PmB,
@@ -302,7 +302,7 @@ var adultQs = []Question{
 	{
 		// question 21
 		q: "You are penalized for not returning your income-tax forms on time.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I always put off doing my taxes.",
 				agg: PmB,
@@ -316,7 +316,7 @@ var adultQs = []Question{
 	{
 		// question 22
 		q: "You ask a person out on a date and he/she says no.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I was a wreck that day.",
 				agg: PvB,
@@ -330,7 +330,7 @@ var adultQs = []Question{
 	{
 		// question 23
 		q: "A game-show host picks you out of the audience to participate in the show.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I was sitting in the right seat.",
 				agg: NIL,
@@ -344,7 +344,7 @@ var adultQs = []Question{
 	{
 		// question 24
 		q: "You are frequently asked to dance at a party.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I am outgoing at parties.",
 				agg: PmG,
@@ -358,7 +358,7 @@ var adultQs = []Question{
 	{
 		// question 25
 		q: "You buy your spouse a gift and he/she doesn't like it.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I don't put enough thought into things like that.",
 				agg: PsB,
@@ -372,7 +372,7 @@ var adultQs = []Question{
 	{
 		// question 26
 		q: "You do exceptionally well in a job interview.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I felt extremely confident during the interview.",
 				agg: NIL,
@@ -386,7 +386,7 @@ var adultQs = []Question{
 	{
 		// question 27
 		q: "You tell a joke and everyone laughs.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "The joke was funny.",
 				agg: NIL,
@@ -400,7 +400,7 @@ var adultQs = []Question{
 	{
 		// question 28
 		q: "Your boss gives you too little time in which to finish a project,\n\tbut you get finished anyway.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I am good at my job.",
 				agg: NIL,
@@ -414,7 +414,7 @@ var adultQs = []Question{
 	{
 		// question 29
 		q: "You've been feeling run-down lately.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I never get a chance to relax.",
 				agg: PmB,
@@ -428,7 +428,7 @@ var adultQs = []Question{
 	{
 		// question 30
 		q: "You ask someone to dance and he/she says no.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I am not a good enough dancer.",
 				agg: PsB,
@@ -442,7 +442,7 @@ var adultQs = []Question{
 	{
 		// question 31
 		q: "You save a person from choking to death.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I know a technique to stop someone from choking.",
 				agg: NIL,
@@ -456,7 +456,7 @@ var adultQs = []Question{
 	{
 		// question 32
 		q: "Your romantic partner wants to cool things off for a while.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I'm too self-centered.",
 				agg: PvB,
@@ -470,7 +470,7 @@ var adultQs = []Question{
 	{
 		// question 33
 		q: "A friend says something that hurts your feelings.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "She always blurts things out without thinking of others.",
 				agg: PmB,
@@ -484,7 +484,7 @@ var adultQs = []Question{
 	{
 		// question 34
 		q: "Your employer comes to you for advice.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I am an expert in the area about which I was asked.",
 				agg: NIL,
@@ -498,7 +498,7 @@ var adultQs = []Question{
 	{
 		// question 35
 		q: "A friend thanks you for helping him/her get through a bad time.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I enjoy helping him/her through tough times.",
 				agg: NIL,
@@ -512,7 +512,7 @@ var adultQs = []Question{
 	{
 		// question 36
 		q: "You have a wonderful time at a party.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "Everyone was friendly.",
 				agg: NIL,
@@ -526,7 +526,7 @@ var adultQs = []Question{
 	{
 		// question 37
 		q: "Your doctor tells you that you are in good physical shape.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I make sure I exercise frequently.",
 				agg: NIL,
@@ -540,7 +540,7 @@ var adultQs = []Question{
 	{
 		// question 38
 		q: "Your spouse takes you away for a romantic weekend.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "He/she needed to get away for a few days.",
 				agg: NIL,
@@ -554,7 +554,7 @@ var adultQs = []Question{
 	{
 		// question 39
 		q: "Your doctor tells you that you eat too much sugar.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I don't pay much attention to my diet.",
 				agg: PsB,
@@ -568,7 +568,7 @@ var adultQs = []Question{
 	{
 		// question 40
 		q: "You are asked to head an important project.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I just successfully completed a similar project.",
 				agg: NIL,
@@ -582,7 +582,7 @@ var adultQs = []Question{
 	{
 		// question 41
 		q: "You and your spouse have been fighting a great deal.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I have been feeling cranky and pressured lately.",
 				agg: PsB,
@@ -596,7 +596,7 @@ var adultQs = []Question{
 	{
 		// question 42
 		q: "You fall down a great deal while skiing.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "Skiing is difficult.",
 				agg: PmB,
@@ -610,7 +610,7 @@ var adultQs = []Question{
 	{
 		// question 43
 		q: "You win a prestigious award.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I solved an important problem.",
 				agg: NIL,
@@ -624,7 +624,7 @@ var adultQs = []Question{
 	{
 		// question 44
 		q: "Your stocks are at an all-time low.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I didn't know much about the business climate at the time.",
 				agg: PvB,
@@ -638,7 +638,7 @@ var adultQs = []Question{
 	{
 		// question 45
 		q: "You win the lottery.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "It was pure chance.",
 				agg: NIL,
@@ -652,7 +652,7 @@ var adultQs = []Question{
 	{
 		// question 46
 		q: "You gain weight over the holidays and you can't lose it.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "Diets don't work in the long run.",
 				agg: PmB,
@@ -666,7 +666,7 @@ var adultQs = []Question{
 	{
 		// question 47
 		q: "You are in the hospital and few people come to visit.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I'm irritable when I am sick.",
 				agg: PsB,
@@ -680,7 +680,7 @@ var adultQs = []Question{
 	{
 		// question 48
 		q: "They won't honor your credit card at a store.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I sometimes overestimate how much money I have.",
 				agg: PvB,
@@ -693,11 +693,11 @@ var adultQs = []Question{
 	},
 }
 
-var childQs = []Question{
+var childQs = []ASQuestion{
 	{
 		// question 1
 		q: "You get an A on a test.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I am smart.",
 				agg: PvG,
@@ -711,7 +711,7 @@ var childQs = []Question{
 	{
 		// question 2
 		q: "You play a game with some friends and you win.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "The people that I played with did not play the game well.",
 				agg: NIL,
@@ -725,7 +725,7 @@ var childQs = []Question{
 	{
 		// question 3
 		q: "You spend a night at a friend's house and you have a good time.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "My friend was in a friendly mood that night.",
 				agg: NIL,
@@ -739,7 +739,7 @@ var childQs = []Question{
 	{
 		// question 4
 		q: "You go on a vacation with a group of people and you have fun.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I was in a good mood.",
 				agg: PsG,
@@ -753,7 +753,7 @@ var childQs = []Question{
 	{
 		// question 5
 		q: "All of your friends catch a cold except you.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I have been healthy lately.",
 				agg: NIL,
@@ -767,7 +767,7 @@ var childQs = []Question{
 	{
 		// question 6
 		q: "Your pet gets run over by a car.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I don't take good care of my pets.",
 				agg: PsB,
@@ -781,7 +781,7 @@ var childQs = []Question{
 	{
 		// question 7
 		q: "Some kids you know say that they don't like you.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "Once in a while people are mean to me.",
 				agg: NIL,
@@ -795,7 +795,7 @@ var childQs = []Question{
 	{
 		// question 8
 		q: "You get very good grades.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "Schoolwork is simple.",
 				agg: NIL,
@@ -809,7 +809,7 @@ var childQs = []Question{
 	{
 		// question 9
 		q: "You meet a friend and your friend tells you that you look nice.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "My friend felt like praising the way people looked that day.",
 				agg: NIL,
@@ -823,7 +823,7 @@ var childQs = []Question{
 	{
 		// question 10
 		q: "A good friend tells you that he hates you.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "My friend was in a bad mood that day.",
 				agg: NIL,
@@ -837,7 +837,7 @@ var childQs = []Question{
 	{
 		// question 11
 		q: "You tell a joke and no one laughs.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I don't tell jokes well.",
 				agg: PsB,
@@ -851,7 +851,7 @@ var childQs = []Question{
 	{
 		// question 12
 		q: "Your teacher gives a lesson and you don't understand it.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I didn't pay attention to anything that day.",
 				agg: PvB,
@@ -865,7 +865,7 @@ var childQs = []Question{
 	{
 		// question 13
 		q: "You fail a test.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "My teacher makes hard tests.",
 				agg: PmB,
@@ -879,7 +879,7 @@ var childQs = []Question{
 	{
 		// question 14
 		q: "You gain a lot of weight and start to look fat.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "The food I have to eat is fattening.",
 				agg: NIL,
@@ -893,7 +893,7 @@ var childQs = []Question{
 	{
 		// question 15
 		q: "A person steals money from you.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "That person is dishonest.",
 				agg: NIL,
@@ -907,7 +907,7 @@ var childQs = []Question{
 	{
 		// question 16
 		q: "Your parents praise something you make.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I am good at making some things.",
 				agg: PsG,
@@ -921,7 +921,7 @@ var childQs = []Question{
 	{
 		// question 17
 		q: "You play a game and you win money.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I am a lucky person.",
 				agg: PvG,
@@ -935,7 +935,7 @@ var childQs = []Question{
 	{
 		// question 18
 		q: "You almost drown when swimming in a river.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I am not a very cautious person.",
 				agg: PmB,
@@ -949,7 +949,7 @@ var childQs = []Question{
 	{
 		// question 19
 		q: "You are invited to a lot of parties.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "A lot of people have been acting friendly toward me lately.",
 				agg: NIL,
@@ -963,7 +963,7 @@ var childQs = []Question{
 	{
 		// question 20
 		q: "A grown-up yells at you.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "That person yelled at the first person he saw.",
 				agg: NIL,
@@ -977,7 +977,7 @@ var childQs = []Question{
 	{
 		// question 21
 		q: "You do a project with a group of kids and it turns out badly.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I don't work well with the people in the group.",
 				agg: NIL,
@@ -991,7 +991,7 @@ var childQs = []Question{
 	{
 		// question 22
 		q: "You make a new friend.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I am a nice person.",
 				agg: PsG,
@@ -1005,7 +1005,7 @@ var childQs = []Question{
 	{
 		// question 23
 		q: "You have been getting along well with your family.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I am easy to get along with when I am with my family.",
 				agg: PmG,
@@ -1019,7 +1019,7 @@ var childQs = []Question{
 	{
 		// question 24
 		q: "You try to sell candy, but no one will buy any.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "Lately a lot of children are selling things, so people don't want to buy anything else from children.",
 				agg: NIL,
@@ -1033,7 +1033,7 @@ var childQs = []Question{
 	{
 		// question 25
 		q: "You play a game and you win.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "Sometimes I try as hard as I can at games.",
 				agg: NIL,
@@ -1047,7 +1047,7 @@ var childQs = []Question{
 	{
 		// question 26
 		q: "You get a bad grade in school.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I am stupid.",
 				agg: PsB,
@@ -1061,7 +1061,7 @@ var childQs = []Question{
 	{
 		// question 27
 		q: "You walk into a door and you get a bloody nose.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I wasn't looking where I was going.",
 				agg: NIL,
@@ -1075,7 +1075,7 @@ var childQs = []Question{
 	{
 		// question 28
 		q: "You miss the ball and your team loses the game.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I didn't try hard while playing ball that day.",
 				agg: NIL,
@@ -1089,7 +1089,7 @@ var childQs = []Question{
 	{
 		// question 29
 		q: "You twist your ankle in gym class.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "The past few weeks, the sports we played in gym class have been dangerous.",
 				agg: NIL,
@@ -1103,7 +1103,7 @@ var childQs = []Question{
 	{
 		// question 30
 		q: "Your parents take you to the beach and you have a good time.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "Everything at the beach was nice that day.",
 				agg: PvG,
@@ -1117,7 +1117,7 @@ var childQs = []Question{
 	{
 		// question 31
 		q: "You take a train which arrives so late that you miss a movie.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "The past few days there have been problems with the train being on time.",
 				agg: NIL,
@@ -1131,7 +1131,7 @@ var childQs = []Question{
 	{
 		// question 32
 		q: "Your mother makes your favorite dinner for you.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "There are a few things that my mother does to please me.",
 				agg: NIL,
@@ -1145,7 +1145,7 @@ var childQs = []Question{
 	{
 		// question 33
 		q: "The team that you are on loses a game.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "The team members don't play well together.",
 				agg: PmB,
@@ -1159,7 +1159,7 @@ var childQs = []Question{
 	{
 		// question 34
 		q: "You finish your homework quickly.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "Lately I have been doing everything quickly.",
 				agg: PvG,
@@ -1173,7 +1173,7 @@ var childQs = []Question{
 	{
 		// question 35
 		q: "Your teacher asks you a question and you give the wrong answer.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I get nervous when I have to answer questions.",
 				agg: PmB,
@@ -1187,7 +1187,7 @@ var childQs = []Question{
 	{
 		// question 36
 		q: "You get on the wrong bus and you get lost.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "That day I wasn't paying attention to what was going on.",
 				agg: NIL,
@@ -1201,7 +1201,7 @@ var childQs = []Question{
 	{
 		// question 37
 		q: "You go to an amusement park and you have a good time.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I usually enjoy myself at amusement parks.",
 				agg: NIL,
@@ -1215,7 +1215,7 @@ var childQs = []Question{
 	{
 		// question 38
 		q: "An older kid slaps you in the face.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I teased his younger brother.",
 				agg: PsB,
@@ -1229,7 +1229,7 @@ var childQs = []Question{
 	{
 		// question 39
 		q: "You get all the toys you want on your birthday.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "People always guess what toys to buy me for my birthday.",
 				agg: PmG,
@@ -1243,7 +1243,7 @@ var childQs = []Question{
 	{
 		// question 40
 		q: "You take a vacation in the country and you have a wonderful time.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "The country is a beautiful place to be.",
 				agg: PmG,
@@ -1257,7 +1257,7 @@ var childQs = []Question{
 	{
 		// question 41
 		q: "Your neighbors ask you over for dinner.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "Sometimes people are in kind moods.",
 				agg: NIL,
@@ -1271,7 +1271,7 @@ var childQs = []Question{
 	{
 		// question 42
 		q: "You have a substitute teacher and she likes you.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I was well behaved during class that day.",
 				agg: NIL,
@@ -1285,7 +1285,7 @@ var childQs = []Question{
 	{
 		// question 43
 		q: "You make your friends happy.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I am a fun person to be with.",
 				agg: PmG,
@@ -1299,7 +1299,7 @@ var childQs = []Question{
 	{
 		// question 44
 		q: "You get a free ice-cream cone.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I was friendly to the ice-cream man that day.",
 				agg: PsG,
@@ -1313,7 +1313,7 @@ var childQs = []Question{
 	{
 		// question 45
 		q: "At your friend's party the magician asks you to help him out.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "It was just luck that I got picked.",
 				agg: NIL,
@@ -1327,7 +1327,7 @@ var childQs = []Question{
 	{
 		// question 46
 		q: "You try to convince a kid to go to the movies with you, but he won't go.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "That day he did not feel like doing anything.",
 				agg: PvB,
@@ -1341,7 +1341,7 @@ var childQs = []Question{
 	{
 		// question 47
 		q: "Your parents get a divorce.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "It is hard for people to get along well when they are married.",
 				agg: PvB,
@@ -1355,7 +1355,7 @@ var childQs = []Question{
 	{
 		// question 48
 		q: "You have been trying to get into a club and you don't get in.",
-		options: []Option{
+		options: []ASQOption{
 			{
 				txt: "I don't get along well with other people.",
 				agg: PvB,
@@ -1366,4 +1366,126 @@ var childQs = []Question{
 			},
 		},
 	},
+}
+
+var cesdOption = []CESDOption{
+	{
+		txt:   "Rarely or none of the time (less than 1 day).",
+		score: 0,
+	},
+	{
+		txt:   "Some or a little of the time (1-2 days).",
+		score: 1,
+	},
+	{
+		txt:   "Occasonally or a moderate amount of the time (3-4 days).",
+		score: 2,
+	},
+	{
+		txt:   "Most or all of the time (5-7 days).",
+		score: 3,
+	},
+}
+
+var dtQs = []CESDQuestion{
+	{
+		// question 1
+		q:   "I was bothered by things that usually don't bother me.",
+		opt: cesdOption,
+	},
+	{
+		// question 2
+		q:   "I did not feel like eating; my appetite was poor.",
+		opt: cesdOption,
+	},
+	{
+		// question 3
+		q:   "I felt that I could not shake off the blues even with help frmo my family and friends.",
+		opt: cesdOption,
+	},
+	{
+		// question 4
+		q:   "I felt that I was not as good as other prople.",
+		opt: cesdOption,
+	},
+	// {
+	// 	// question x
+	// 	q:   "",
+	// 	opt: cesdOption,
+	// },
+	// {
+	// 	// question x
+	// 	q:   "",
+	// 	opt: cesdOption,
+	// },
+	// {
+	// 	// question x
+	// 	q:   "",
+	// 	opt: cesdOption,
+	// },
+	// {
+	// 	// question x
+	// 	q:   "",
+	// 	opt: cesdOption,
+	// },
+	// {
+	// 	// question x
+	// 	q:   "",
+	// 	opt: cesdOption,
+	// },
+	// {
+	// 	// question x
+	// 	q:   "",
+	// 	opt: cesdOption,
+	// },
+	// {
+	// 	// question x
+	// 	q:   "",
+	// 	opt: cesdOption,
+	// },
+	// {
+	// 	// question x
+	// 	q:   "",
+	// 	opt: cesdOption,
+	// },
+	// {
+	// 	// question x
+	// 	q:   "",
+	// 	opt: cesdOption,
+	// },
+	// {
+	// 	// question x
+	// 	q:   "",
+	// 	opt: cesdOption,
+	// },
+	// {
+	// 	// question x
+	// 	q:   "",
+	// 	opt: cesdOption,
+	// },
+	// {
+	// 	// question x
+	// 	q:   "",
+	// 	opt: cesdOption,
+	// },
+	// {
+	// 	// question x
+	// 	q:   "",
+	// 	opt: cesdOption,
+	// },
+	// {
+	// 	// question x
+	// 	q:   "",
+	// 	opt: cesdOption,
+	// },
+	// {
+	// 	// question x
+	// 	q:   "",
+	// 	opt: cesdOption,
+	// },
+	// {
+	// 	// question x
+	// 	q:   "",
+	// 	opt: cesdOption,
+	// },
 }
